@@ -38,7 +38,17 @@ package chapter02;
  *  What Do I Tell My Manager?
  *  显然书中说的话对技术经理来说，可能不用说，对于非技术经理来说，是不能那么说的
  *
+ * When shouldn't you refactor?
+ * 什么时候不能进行重构
+ *      The principle example is when you should rewrite from scratch instead.
+ *      代码非常难以改变，需要重新写
+ *      The other time you should avoid refactoring is when you are close to a deadline.
+ *      交付日期接近时，不能进行重构
  *
+ * Refactoring and Performance
+ * 重构与性能
+ *      To make the software easier to understand, you often make changes that will cause the program to run more slowly.
+ *      重构往往降低性能
  */
 public class PrinciplesInRefactoring {
 }
